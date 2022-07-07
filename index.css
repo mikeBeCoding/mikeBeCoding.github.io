@@ -10,7 +10,7 @@
 body {    
     width:auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg");
+    /* background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg"); */
     background-size:cover;
     background-repeat: no-repeat;
     background-color: #b9d3dd;
@@ -41,8 +41,8 @@ body {
 
 .menu a:hover{
     
-    box-shadow: 2px 3px 2px;
-    color:#065270;
+    box-shadow: 2px 3px 2px #065270;
+    color:#fff;
     border-radius: 0.2em;
     transition: all .4s;
     
@@ -161,7 +161,7 @@ margin-bottom: 20px;
 #objective1 {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -174,7 +174,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 #objective2 {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -187,7 +187,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 #objective3 {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
@@ -217,7 +217,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 #hardSkills {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 450px;
     height: 275px;
     border-radius: 10px;
@@ -232,7 +232,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 #softSkills {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 450px;
     height: 275px;
     border-radius: 10px;
@@ -266,7 +266,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 #bio {
     background-color: white;
     border: 1px solid #065270;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 850px;
     height: 550px;
     border-radius: 10px;
@@ -291,7 +291,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     background-color: white;
     border: 1px solid #065270;
     border-right: 0;
-    box-shadow: 3px -1px #065270;
+    box-shadow: 0 0 2px #065270;
     width: 470px;
     height: 550px;
     border-radius: 10px;
@@ -406,7 +406,9 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     background-color: #b9d3dd;
     color: #065270;
     cursor: pointer;
+    transition: all 0.6s;
 }
+ 
 
 @media only screen and (max-width: 920px)  {
     
@@ -519,7 +521,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         width:auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
         /* background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg"); */
-        background-size:auto;
+        /* background-size:auto; */
         background-repeat: no-repeat;
         background-color: #b9d3dd;
     
@@ -528,12 +530,14 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     /* main menu styling */
     #menuBox {
         display: flex;
-        height: 5vh;
+        height: 30px;
         font-size: 1.1em;
+        background-color: #fff;
+        border-bottom-left-radius:70px ;
     }
     .menu {
         
-        /* margin-top: 20px; */
+        top: 5px;
         left: 29vw;
         padding-right: 5px;
         position: relative;
@@ -560,8 +564,8 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     width: 100%;
     position: relative;
     padding-top:10%;
-    left: 60px;
-    place-items:center;
+    left: 1px;
+    /* place-items:center; */
     /* width: 75vw; */
     
     
@@ -602,11 +606,14 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         flex-wrap: wrap;
         padding-left: 2%;
         justify-content: center;
-        
+        background-color: #fff;
         font-size: 1em;
         position: relative;
         top: 40px;
-        bottom: 30px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius:60px ;
+
+        /* bottom: 30px; */
         /* left: 100px; */
         /* background-color: white; */
     }
@@ -619,7 +626,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     #objective1 {
         background-color: white;
         border: 1px solid #065270;
-        box-shadow: 3px -1px  #065270;
+        box-shadow: 0 0 2px  #065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
@@ -634,7 +641,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     #objective2 {
         background-color: white;
         border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
@@ -649,14 +656,14 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     }
     #objective3 {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px#065270;
+        /* border: 1px solid #065270; */
+        box-shadow: 0 0 1px#065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
         position: relative;
         margin: 25px;
-        margin-bottom: 35px;
+        /* margin-bottom: 35px; */
 
         -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
         -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
@@ -670,18 +677,22 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
           
         display: flex;
         flex-wrap: wrap;
+        background-color: #fff;
         /* padding-left: 1%; */
-        justify-content: center;
+        justify-content: space-around;
         text-align:center;
         font-size: 1em;
         position: relative;
-        top: 20px;
+        /* top: 20px; */
+        /* height: auto; */
+        border-top-right-radius: 60px;
+
     }
     
     #hardSkills {
         background-color: white;
         border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
         border-radius: 10px;
@@ -699,7 +710,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     #softSkills {
         background-color: white;
         border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
         border-radius: 10px;
@@ -726,28 +737,35 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     #aboutBox {
     
         display: flex;
-        flex-wrap:nowrap;
-        left: 13.5%;
-        justify-content: center;
+        flex-wrap:wrap;
+        /* left: 13.5%; */
+        justify-content: space-around;
+        /* right: 10px; */
         text-align:left;
         font-size: 16px;
         position: relative;
-        top: 40px;
-        width: 600px;
+        height:min-content;
+        /* width: 100%; */
+        background-color: #fff;
+        border-bottom-left-radius:60px ;
+        z-index: 1;
+        
     }
     
     #bio {
-        align-self: center;
-        background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
-        width: 1100px;
-        height: 520px;
-        border-radius: 10px;
+        /* align-self: center; */
+        background-color:#fff;
+        border:0;
+        box-shadow: 0 0 0;
+        width: 110vw;
+        border-radius: 1px;
         position: relative;
-        /* left: 14vw; */
-        padding: 20px;
-        top: 15px;
+        height:fit-content;
+        right: 2px;
+        border-bottom-left-radius:60px ;
+
+        /* padding: 20px; */
+        top: -1px;
 
         
         border-left: 0;
@@ -768,11 +786,11 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         border-radius: 10px;
         position: absolute;
         padding: 20px;
-        top: 370px;
+        /* top: 370px; */
         left: 56%;
         z-index: 1;
 
-        /* display: none; */
+        display: none;
     
         -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
         -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
@@ -783,7 +801,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     
     #footer {
 
-        /* display: none; */
+        display: none;
         flex-wrap: wrap;
         justify-content: center;
         color: white;
@@ -806,7 +824,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     body {    
         width:auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg");
+        /* background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg"); */
         background-size:auto;
         background-repeat: no-repeat;
         background-color: #b9d3dd;
@@ -1077,7 +1095,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 
         /* display: none; */
         display: flexbox;
-        justify-content: center;
+        /* justify-content:flex-end; */
         color: white;
         position: relative;
         text-align: center;
