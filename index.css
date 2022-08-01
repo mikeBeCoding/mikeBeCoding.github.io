@@ -33,6 +33,7 @@ body {
     display: inline;
     justify-content: space-evenly;
     color: #065270;
+    transition: all .4s;
 
 }
 .menu:visited {
@@ -44,7 +45,6 @@ body {
     box-shadow: 2px 3px 2px #065270;
     color:#fff;
     border-radius: 0.2em;
-    transition: all .4s;
     
 }
 
@@ -64,10 +64,7 @@ left: 50px;
     padding-bottom: 15px;
     width: 50%;
     color: #065270;
-    -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+
 
 
 }
@@ -77,17 +74,14 @@ left: 50px;
     background: linear-gradient(179deg, rgba(2,0,36,1) 0%, rgba(6,82,112,1) 45%);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
+    -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
+    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
+    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 
-    -webkit-animation: greetName 1.2s both; /* Safari 4+ */
-    -moz-animation: greetName 1.2s both; /* Fx 5+ */
-    -o-animation: greetName 1.2s both; /* Opera 12+ */
-    animation: greetName 1.2s both; /* IE 10+, Fx 29+ */
 }
-
-
-
 /* Safari 4+ */
-@-webkit-keyframes greetName {
+@-webkit-keyframes fadeInleft {
     0% {
         opacity: 0;
         -webkit-transform: translateX(-50px);
@@ -96,10 +90,10 @@ left: 50px;
         opacity: 1;
         -webkit-transform: translateX(0);
     }
-  }
+  } 
   
   /* Fx 5+ */
-  @-moz-keyframes greetName {
+   @-moz-keyframes fadeInleft {
     0% {
         opacity: 0;
         -moz-transform: translateX(-50px);
@@ -108,10 +102,10 @@ left: 50px;
         opacity: 1;
         -moz-transform: translateX(0);
     }
-  }
+  } 
   
   /* Opera 12+ */
-  @-o-keyframes greetName {
+   @-o-keyframes fadeInleft {
     0% {
         opacity: 0;
         -o-transform: translateX(-50px);
@@ -120,10 +114,10 @@ left: 50px;
         opacity: 1;
         -o-transform: translateX(0);
     }
-  }
+  } 
   
   /* IE 10+, Fx 29+ */
-  @keyframes greetName {
+   @keyframes fadeInleft {
     0% {
         opacity: 0;
         transform: translateX(-50px);
@@ -133,11 +127,8 @@ left: 50px;
         transform: translateX(0);
     }
   }
+
     
-
-
-
-
 
 /* mission settings */
 #missionBox {
@@ -160,41 +151,29 @@ margin-bottom: 20px;
 }
 #objective1 {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
     
-    -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
--moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
--o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+
 }
 #objective2 {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
-    -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
-    animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
+
 
 }
 #objective3 {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 350px;
     height: 200px;
     border-radius: 10px;
-    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
 }
 
 
@@ -216,32 +195,22 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 
 #hardSkills {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 450px;
     height: 275px;
     border-radius: 10px;
     position: relative;
-    /* left: 5%; */
-    -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
--moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
--o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+
 }
 
 #softSkills {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 450px;
     height: 275px;
     border-radius: 10px;
     position: relative;
-    /* right: 5%; */
-    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
 }
 
 .skillList {
@@ -265,7 +234,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 
 #bio {
     background-color: white;
-    border: 1px solid #065270;
     box-shadow: 0 0 2px #065270;
     width: 850px;
     height: 550px;
@@ -279,17 +247,13 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     word-spacing: 5px;
     /* right: 11%; */
     border-left: 0;
-    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
 }
 #selfie {
-    background-image: url("/images/selfie.png");
+    background-image: url("./images/IMG_5813\ 2.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: white;
-    border: 1px solid #065270;
     border-right: 0;
     box-shadow: 0 0 2px #065270;
     width: 470px;
@@ -300,12 +264,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     position: relative;
     padding: 20px;
     top: 100px;
-    /* left: 11%; */
 
-    -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-    animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
 
 }
 
@@ -400,15 +359,79 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     border:2px solid #065270;
     border-radius: 7px;
     background-color: #065270;
+    transition: all 0.6s;
     color:#b9d3dd;
 }
 #contactSubmitBtn:hover {
-    background-color: #b9d3dd;
+    background-color: #fff;
     color: #065270;
     cursor: pointer;
-    transition: all 0.6s;
 }
- 
+
+.projectBox{
+margin-top: 15px;
+padding-top: 30px;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+
+padding-bottom: 30px;
+margin-bottom: 15px;
+/* background-color: #fff; */
+
+}
+.project{
+    background-color: white;
+    box-shadow: 0 0 2px #065270;
+    display: block;
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    text-align: left;
+    margin-bottom: 15px;
+    margin-right: 15px;
+    gap: 30px;
+
+}
+.projectContent {
+    font-size: 1.2rem;
+    position: relative;
+    top: -30px;
+    padding: 5px;
+    width: 350px;
+}
+.projectContent h4  {
+    margin-bottom: 10px;
+    color: #065270;
+}
+
+.projectImage1 img{
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+}.projectImage2 img{
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+} 
+.projectImage3  img{
+    justify-content: center;
+    width: 100%;
+    height: 150px;
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-top-left-radius:10px ;
+    border-top-right-radius:10px ;
+} 
 
 @media only screen and (max-width: 920px)  {
     
@@ -502,6 +525,9 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         color: #065270;
         cursor: pointer;
     }
+    .projectBox {
+        margin-left: 20px;
+    }
 }
 
 ::-webkit-input-placeholder {
@@ -520,8 +546,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     body {    
         width:auto;
         font-family: Georgia, 'Times New Roman', Times, serif;
-        /* background-image: url("./images/pawel-czerwinski-krA9zndPlrA-unsplash.jpg"); */
-        /* background-size:auto; */
         background-repeat: no-repeat;
         background-color: #b9d3dd;
     
@@ -544,6 +568,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         text-decoration: none;
         display: inline;
         justify-content: space-evenly;
+        transition: all .4s;
     
     }
     .menu:visited {
@@ -555,7 +580,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         box-shadow: 2px 3px 2px;
         color:#065270;
         border-radius: 0.2em;
-        transition: all .4s;
         
     }
     
@@ -577,10 +601,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         width: 70%;
         color: #065270;
     
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
     
     }
     .greetName {
@@ -590,10 +610,10 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         -webkit-text-fill-color: transparent;
         -webkit-background-clip: text;
     
-        -webkit-animation: greetName 1.2s both; /* Safari 4+ */
-        -moz-animation: greetName 1.2s both; /* Fx 5+ */
-        -o-animation: greetName 1.2s both; /* Opera 12+ */
-        animation: greetName 1.2s both; /* IE 10+, Fx 29+ */
+        -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
+    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
+    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
+    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     }
     
     
@@ -613,9 +633,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         border-top-right-radius: 60px;
         border-bottom-left-radius:60px ;
 
-        /* bottom: 30px; */
-        /* left: 100px; */
-        /* background-color: white; */
     }
     .missionH2 {
     color: #065270;
@@ -625,7 +642,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     }
     #objective1 {
         background-color: white;
-        border: 1px solid #065270;
         box-shadow: 0 0 2px  #065270;
         width: 250px;
         height: 150px;
@@ -633,14 +649,13 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         position: relative;
         margin: 25px;
         
-        -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+        -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
+        -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
+        -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
+        animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
     }
     #objective2 {
         background-color: white;
-        border: 1px solid #065270;
         box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 150px;
@@ -656,8 +671,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     }
     #objective3 {
         background-color: white;
-        /* border: 1px solid #065270; */
-        box-shadow: 0 0 1px#065270;
+        box-shadow: 0 0 2px#065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
@@ -665,10 +679,10 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         margin: 25px;
         /* margin-bottom: 35px; */
 
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+        -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
+        -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
+        -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
+        animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
     }
         
     /* Skills styling */
@@ -691,7 +705,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     
     #hardSkills {
         background-color: white;
-        border: 1px solid #065270;
         box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
@@ -709,7 +722,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     
     #softSkills {
         background-color: white;
-        border: 1px solid #065270;
         box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
@@ -769,10 +781,10 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
 
         
         border-left: 0;
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+        -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
+        -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
+        -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
+        animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
     }
      #selfie {
         
@@ -809,7 +821,94 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         text-align: center;
         top: 100px;
     }
-
+    
+      @-webkit-keyframes fadeInTop {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateY(0);
+        }
+      } 
+      
+       @-moz-keyframes fadeInTop {
+        0% {
+            opacity: 0;
+            -moz-transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            -moz-transform: translateY(0);
+        }
+      }
+      
+      @-o-keyframes fadeInTop {
+        0% {
+            opacity: 0;
+            -o-transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            -o-transform: translateY(0);
+        }
+      }
+      
+      @keyframes fadeInTop{
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+      }
+    
+    @-webkit-keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            -webkit-transform: translateX(50px);
+        }
+        100% {
+            opacity: 1;
+            -webkit-transform: translateX(0);
+        }
+      }
+      
+      @-moz-keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            -moz-transform: translateX(50px);
+        }
+        100% {
+            opacity: 1;
+            -moz-transform: translateX(0);
+        }
+      }
+      
+      @-o-keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            -o-transform: translateX(50px);
+        }
+        100% {
+            opacity: 1;
+            -o-transform: translateX(0);
+        }
+      }
+      
+      @keyframes fadeInRight {
+        0% {
+            opacity: 0;
+            transform: translateX(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateX(0);
+        }
+      }
 }
 
 
@@ -846,20 +945,22 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         text-decoration: none;
         display: inline;
         justify-content: space-evenly;
+        transition: all .4s;
+
     
     }
     .menu:visited {
         color:#065270;
     }
     
-    /* .menu a:hover{
+    .menu a:hover{
         
-        box-shadow: 2px 3px 2px;
-        color:#065270;
+        box-shadow: 2px 3px 2px #065270;
+        background-color: #b9d3dd;
+        color:#fff;
         border-radius: 0.2em;
-        transition: all .4s;
         
-    } */
+    } 
     
     /* intro settings */
     #introBox {
@@ -878,10 +979,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         width: 50%;
         color: #065270;
     
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
     
     }
     .greetName {
@@ -892,10 +989,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         -webkit-background-clip: text;
         display: flex;
     
-        -webkit-animation: greetName 1.2s both; /* Safari 4+ */
-        -moz-animation: greetName 1.2s both; /* Fx 5+ */
-        -o-animation: greetName 1.2s both; /* Opera 12+ */
-        animation: greetName 1.2s both; /* IE 10+, Fx 29+ */
+
     }
     
     
@@ -923,39 +1017,30 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     }
     #objective1 {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px  #065270;
+        box-shadow: 0 0 2px  #065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
         position: relative;
         margin: 25px;
         
-        -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+
     }
     #objective2 {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
         position: relative;
         margin: 25px;
 
-        -webkit-animation: fadeInTop 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInTop 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInTop 1.2s both; /* Opera 12+ */
-        animation: fadeInTop 1.2s both; /* IE 10+, Fx 29+ */
+
     
     }
     #objective3 {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px#065270;
+        box-shadow: 0 0 2px#065270;
         width: 250px;
         height: 150px;
         border-radius: 10px;
@@ -963,10 +1048,6 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         margin: 25px;
         margin-bottom: 35px;
 
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
     }
         
     /* Skills styling */
@@ -985,8 +1066,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     
     #hardSkills {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
         border-radius: 10px;
@@ -995,16 +1075,12 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         margin: 25px;
 
         
-        -webkit-animation: fadeInleft 1.2s both; /* Safari 4+ */
-    -moz-animation: fadeInleft 1.2s both; /* Fx 5+ */
-    -o-animation: fadeInleft 1.2s both; /* Opera 12+ */
-    animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
+
     }
     
     #softSkills {
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 250px;
         height: 190px;
         border-radius: 10px;
@@ -1013,10 +1089,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         margin: 25px;
 
         
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
     }
     
     .skillList {
@@ -1046,8 +1119,7 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
     #bio {
     
         background-color: white;
-        border: 1px solid #065270;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 900px;
         height: 520px;
         border-radius: 10px;
@@ -1057,20 +1129,14 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         position: relative;
         /* left: 26.5vw; */
         padding: 20px;
-        top: 15px;
-
-        
+        top: 15px;        
         border-left: 0;
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
     }
      #selfie {
         background-color: white;
-        border: 1px solid #065270;
         border-right: 0;
-        box-shadow: 3px -1px #065270;
+        box-shadow: 0 0 2px #065270;
         width: 900px;
         height: 520px;
         border-radius: 10px;
@@ -1081,14 +1147,9 @@ animation: fadeInleft 1.2s both; /* IE 10+, Fx 29+ */
         position: relative;
         /* left: 26.5vw; */
         padding: 20px;
-        top: 15px;
-
-        
+        top: 15px;        
         border-left: 0;
-        -webkit-animation: fadeInRight 1.2s both; /* Safari 4+ */
-        -moz-animation: fadeInRight 1.2s both; /* Fx 5+ */
-        -o-animation: fadeInRight 1.2s both; /* Opera 12+ */
-        animation: fadeInRight 1.2s both; /* IE 10+, Fx 29+ */
+
     } 
     
     #footer {
