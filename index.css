@@ -48,6 +48,13 @@ body {
     
 }
 
+.contact-me-icons{
+    position: relative;
+    text-align: center;
+    top: 15px;
+    word-spacing: 20px;
+}
+
 /* intro settings */
 #introBox {
 width: 70%;
@@ -964,9 +971,9 @@ margin-bottom: 15px;
     
     /* intro settings */
     #introBox {
-    width: 50vw;
+    /* width: 50vw; */
     position: relative;
-    /* padding-top:10%; */
+    padding-top:5%;
     left: 60px;
     place-items:center;
     
@@ -976,7 +983,7 @@ margin-bottom: 15px;
     .greet{
         font-size: 1.2em;
         padding-bottom: 10px;
-        width: 50%;
+        width: 70%;
         color: #065270;
     
     
